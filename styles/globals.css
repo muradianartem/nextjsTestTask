@@ -14,3 +14,37 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.table-wrapper {
+  margin: 20px 40px;
+}
+
+.table-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+  margin-bottom: 20px;
+}
+
+.table-item > span {
+  width: 20%;
+}
+
+.table-item > div {
+  width: 70%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.table-header {
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+}
+
+.next-item-link {
+  text-align: center;
+  margin: 40px;
+  color: blue;
+}
